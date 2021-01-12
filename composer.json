@@ -30,7 +30,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Advacnedideasmechanics\\Generatepasswd\\": "src/"
+      "Advancedideasmechanics\\Generatepasswd\\": "src/"
     }
   },
   "autoload-dev": {
