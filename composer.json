@@ -1,0 +1,52 @@
+{
+  "name": "advancedideasmechanics/generate-passwd",
+  "description": "Generate passwords for /etc/shadow",
+  "minimum-stability": "stable",
+  "type": "library",
+  "keywords": [
+    "mattthewpallotta",
+    "advancedideasmechanics",
+    "generate-passwd",
+    "generate-password",
+    "php",
+    "library"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matthew Pallotta",
+      "email": "matt@advacned.im",
+      "homepage": "https://www.advanced.im"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/advancedideasmechanics/generate-passwd/issues",
+    "email": "support@advanced.im",
+    "source": "https://github.com/advancedideasmechanics/generate-passwd"
+  },
+  "homepage": "https://advanced.im/generatepasswd",
+  "require": {
+    "advancedideasmechanics/unique-id-generator": ">=1.0.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Advacnedideasmechanics\\Generatepasswd\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Advancedideasmechanics\\Generatepasswd\\": "tests/src"
+    }
+  },
+  "scripts": {
+    "check": [
+      "@cs-check",
+      "@test"
+    ],
+    "cs-check": "phpcs",
+    "cs-fix": "phpbf"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "9.0"
+  }
+}
